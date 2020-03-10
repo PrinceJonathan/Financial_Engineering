@@ -8,9 +8,12 @@ n_m = n_y * 12  #期數(月)
 p_m = p / n_m  #償還本金(月還
 p_i = 0  #本利累計
 print("期數(月)  本金(元)  利息(元)  本利累計(元)")
+table = PrettyTable(["期數(月)", "本金(元)", "利息(元)", "本利累計(元)"]) #prettytable現身
 for k in range(n_m):
     i_m = p * (i / 12)  #利息(月)
     p -= p_m
     p_i_m = p_m + i_m  #本利累計(月)
     p_i += p_i_m
-    print("第" + str(k + 1) + "期" + "   " + str(int(p_m)) + "     " + str(int(i_m)) + "      " + str(int(p_i)))
+    table.add_row(["第1期", int(p_m), int(i_m), int(p_i)]) #add進table
+    
+print(table) #印出結果
