@@ -5,7 +5,7 @@
 
 |作業|學習記程|流程圖|程式碼|  
 |---|---|---|---| 
-|1|[HW1](https://github.com/PrinceJonathan/Financial_Engineering/tree/master/HW1)|telling jokes|a|
+|[HW1](https://github.com/PrinceJonathan/Financial_Engineering/tree/master/HW1)|[學習記程](https://nbviewer.jupyter.org/github/PrinceJonathan/Financial_Engineering/blob/master/HW1/HW1.ipynb)|[流程圖](https://github.com/PrinceJonathan/Financial_Engineering/blob/master/HW1/procedure.jpg)|[程式碼](https://github.com/PrinceJonathan/Financial_Engineering/blob/master/HW1/HW1.py)|
 
 **emoji:**  
 :smile:  
