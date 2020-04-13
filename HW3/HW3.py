@@ -36,7 +36,7 @@ def Cfunc(x):  #降階倒推call value
         print("C[" + str(i) + "]:", x)
     return x
 
-print("call calue 約等於", "%.3f" %  Cfunc(Cn_list)[0])
+print("call alue 約等於", "%.3f" %  Cfunc(Cn_list)[0])
 
 
 
