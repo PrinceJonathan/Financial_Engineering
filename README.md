@@ -1,4 +1,4 @@
-# Financial Engineering 學習記錄
+# 財務工程(Financial Engineering) 學習記錄
 * 姓名：李承翰  
 * 系級：經濟四  
 * 學號：B04502062  
