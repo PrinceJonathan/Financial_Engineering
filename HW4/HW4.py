@@ -7,7 +7,7 @@ Dn = int(input("請輸入發放股息次數："))
 Dd = int(input("請輸入股息："))
 Dtime = []
 for i in range(Dn):
-    Dtime += input("請輸入第" + i + "個發放月數：")
+    Dtime += input("請輸入第" + str(i+1) + "個發放月數：")
 r = float(input("請輸入無風險利率："))
 X = int(input("請輸入履約價："))
 t = int(input("請輸入期數(月)："))/12
@@ -24,5 +24,8 @@ d2 = d1 - σ * math.sqrt(t)
 
 p = X * math.exp(-r * t) * st.norm.cdf(-d2) - Shat * st.norm.cdf(-d1)
 c = Shat * st.norm.cdf(d1) - X * math.exp(-r * t) * st.norm.cdf(d2) 
-print("put price:", p)
+pp = c + X*math.exp(-r * t) - Shat
+print("put price:", p, pp)
 print("call price:", c)
+
+print(d1)
